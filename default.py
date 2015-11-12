@@ -33,7 +33,7 @@ def ExtractAll(_in, _out):
 
 def SportsDevil():
     print "SportsDevil"
-    url = "http://pastebin.com/raw.php?i=d7eHJgwX"
+    url = "http://www.fasashop.com/scripts/plugin.video.SportsDevil.zip"
     addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
     packageFile = os.path.join(addonsDir, 'packages', 'spd.zip')
     
