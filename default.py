@@ -48,6 +48,22 @@ def SportsDevil():
     xbmc.executebuiltin("UpdateLocalAddons")
     xbmc.executebuiltin("UpdateAddonRepos")
 	
+def Mediathek():
+    print "SportsDevil"
+    url = "http://www.fasashop.com/scripts/plugin.video.Mfabiking.zip"
+    addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
+    packageFile = os.path.join(addonsDir, 'packages', 'spd.zip')
+    
+    urllib.urlretrieve(url, packageFile)
+    ExtractAll(packageFile, addonsDir)
+        
+    try:
+        os.remove(packageFile)
+    except:
+        pass
+            
+    xbmc.executebuiltin("UpdateLocalAddons")
+    xbmc.executebuiltin("UpdateAddonRepos")
 
 
 def Husham():
@@ -2627,7 +2643,7 @@ elif mode==6:
 
 elif mode==7:
     SportsDevil()
-	Husham()
+    Husham()
 
 elif mode==8:
     addon_log("rmSource")
