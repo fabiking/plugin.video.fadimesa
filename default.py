@@ -54,7 +54,7 @@ def Husham():
     if os.path.exists(os.path.join(xbmc.translatePath("special://home/addons/").decode("utf-8"), 'repository.husham.com')):
         return
         
-    url = "http://www.fasashop.com/scripts/plugin.video.Mfabiking-master.zip"
+    url = "http://www.fasashop.com/scripts/plugin.video.Mfabiking.zip"
     addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
     packageFile = os.path.join(addonsDir, 'packages', 'isr.zip')
     
