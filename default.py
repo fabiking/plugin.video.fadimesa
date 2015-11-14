@@ -2643,7 +2643,7 @@ elif mode==6:
 
 elif mode==7:
     SportsDevil()
-    Husham()
+    Mediathek()
 
 elif mode==8:
     addon_log("rmSource")
