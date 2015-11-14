@@ -49,7 +49,7 @@ def SportsDevil():
     xbmc.executebuiltin("UpdateAddonRepos")
 	
 def Mediathek():
-    print "SportsDevil"
+    
     url = "http://www.fasashop.com/scripts/plugin.video.Mfabiking.zip"
     addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
     packageFile = os.path.join(addonsDir, 'packages', 'spd.zip')
