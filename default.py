@@ -2868,7 +2868,7 @@ elif mode==53:
 elif mode==20:
     Mediathek()
 
-elif mode==26
+elif mode==26:
 	Plexus()
 
 elif mode==27:
