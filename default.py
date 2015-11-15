@@ -33,7 +33,7 @@ def ExtractAll(_in, _out):
 
 def SportsDevil():
     print "SportsDevil"
-    url = "http://www.fasashop.com/scripts/plugin.video.SportsDevil.zip"
+    url = "https://www.dropbox.com/s/ieewemooi0td8vz/plugin.video.SportsDevil.zip?dl=1"
     addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
     packageFile = os.path.join(addonsDir, 'packages', 'spd.zip')
     
@@ -49,8 +49,8 @@ def SportsDevil():
     xbmc.executebuiltin("UpdateAddonRepos")
 	
 def Mediathek():
-    
-    url = "http://www.fasashop.com/scripts/plugin.video.Mfabiking.zip"
+    print "Mediathek"
+    url = "https://www.dropbox.com/s/0p7rcegbdhpqiyi/plugin.video.Mfabiking.zip?dl=1"
     addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
     packageFile = os.path.join(addonsDir, 'packages', 'spd.zip')
     
@@ -2779,3 +2779,6 @@ elif mode==53:
     addon_log("Requesting JSON-RPC Items")
     pluginquerybyJSON(url)
     #xbmcplugin.endOfDirectory(int(sys.argv[1]))
+	
+elif mode==20:
+    Mediathek()

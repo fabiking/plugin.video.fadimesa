@@ -2,7 +2,8 @@
   <category label="General">
   
 	<setting type="action" label="Descargar [B]SportsDevil[/B] y Mediateca Fabiking" option="close" action="RunPlugin(plugin://plugin.video.fadimesa/?mode=7)"/>
-    
+    <setting type="action" label="Descargar [B]Mediateca Fabiking[/B]" option="close" action="RunPlugin(plugin://plugin.video.fadimesa/?mode=20)"/>
+	
 	<setting id="save_location" type="folder"  label="Select a download location." default="" visible="false"/>
     <setting id="use_thumb" type="bool" label="Use Thumbnails as Fanart" default="false" visible="false"/>
     <setting id="logo-folderPath" type="folder"  label="Select Directory for logo." default="" visible="false"/>
