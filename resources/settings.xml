@@ -1,8 +1,13 @@
 <settings>
   <category label="General">
   
-	<setting type="action" label="Descargar [B]SportsDevil[/B] y Mediateca Fabiking" option="close" action="RunPlugin(plugin://plugin.video.fadimesa/?mode=7)"/>
-    <setting type="action" label="Descargar [B]Mediateca Fabiking[/B]" option="close" action="RunPlugin(plugin://plugin.video.fadimesa/?mode=20)"/>
+	<setting type="action" label="Descargar [B]Complemento 1[/B]" option="close" action="RunPlugin(plugin://plugin.video.fadimesa/?mode=7)"/>
+    <setting type="action" label="Descargar [B]Complemento 2[/B]" option="close" action="RunPlugin(plugin://plugin.video.fadimesa/?mode=20)"/>
+	<setting type="action" label="Descargar [B]Complemento 3[/B]" option="close" action="RunPlugin(plugin://plugin.video.fadimesa/?mode=26)"/>
+	<setting type="action" label="Descargar [B]Complemento 4[/B]" option="close" action="RunPlugin(plugin://plugin.video.fadimesa/?mode=27)"/>
+	<setting type="action" label="Descargar [B]Complemento 5[/B]" option="close" action="RunPlugin(plugin://plugin.video.fadimesa/?mode=28)"/>
+	<setting type="action" label="Descargar [B]Complemento 6[/B]" option="close" action="RunPlugin(plugin://plugin.video.fadimesa/?mode=29)"/>
+	<setting type="action" label="Descargar [B]Complemento 7[/B]" option="close" action="RunPlugin(plugin://plugin.video.fadimesa/?mode=30)"/>
 	
 	<setting id="save_location" type="folder"  label="Select a download location." default="" visible="false"/>
     <setting id="use_thumb" type="bool" label="Use Thumbnails as Fanart" default="false" visible="false"/>

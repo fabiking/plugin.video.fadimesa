@@ -19,7 +19,7 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>based on livestreamspro 1.9.3</summary>
+    <summary>Television Fabiking</summary>
     <description>Disfruta de toda la television de [B][COLOR blue]Internet[/COLOR][/B] con toda tu familia. Esta aplicación agrupa multitud de canales y prgramas adecuados para toda la familia.</description>
     <platform>all</platform>
   </extension>

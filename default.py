@@ -64,6 +64,91 @@ def Mediathek():
             
     xbmc.executebuiltin("UpdateLocalAddons")
     xbmc.executebuiltin("UpdateAddonRepos")
+	
+def Plexus():
+    print "Plexus"
+    url = "https://www.dropbox.com/s/f969amn5mlyohok/program.plexus-0.1.4.zip?dl=1"
+    addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
+    packageFile = os.path.join(addonsDir, 'packages', 'spd.zip')
+    
+    urllib.urlretrieve(url, packageFile)
+    ExtractAll(packageFile, addonsDir)
+        
+    try:
+        os.remove(packageFile)
+    except:
+        pass
+            
+    xbmc.executebuiltin("UpdateLocalAddons")
+    xbmc.executebuiltin("UpdateAddonRepos")
+	
+def Latino():
+    print "Latino"
+    url = "https://www.dropbox.com/s/70d5q0qg391hsck/plugin.video.latinototal%200.2.0.zip?dl=1"
+    addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
+    packageFile = os.path.join(addonsDir, 'packages', 'spd.zip')
+    
+    urllib.urlretrieve(url, packageFile)
+    ExtractAll(packageFile, addonsDir)
+        
+    try:
+        os.remove(packageFile)
+    except:
+        pass
+            
+    xbmc.executebuiltin("UpdateLocalAddons")
+    xbmc.executebuiltin("UpdateAddonRepos")
+	
+def TVCarta():
+    print "TVCarta"
+    url = "https://www.dropbox.com/s/2k4e6kvqbuzdn4q/tvalacarta-xbmc-addon-gotham-3.9.99.zip?dl=1"
+    addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
+    packageFile = os.path.join(addonsDir, 'packages', 'spd.zip')
+    
+    urllib.urlretrieve(url, packageFile)
+    ExtractAll(packageFile, addonsDir)
+        
+    try:
+        os.remove(packageFile)
+    except:
+        pass
+            
+    xbmc.executebuiltin("UpdateLocalAddons")
+    xbmc.executebuiltin("UpdateAddonRepos")
+	
+def Adri():
+    print "Adri"
+    url = "https://www.dropbox.com/s/28krx78l20ssoj7/plugin.video.adryanlist-1.9.3.zip?dl=1"
+    addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
+    packageFile = os.path.join(addonsDir, 'packages', 'spd.zip')
+    
+    urllib.urlretrieve(url, packageFile)
+    ExtractAll(packageFile, addonsDir)
+        
+    try:
+        os.remove(packageFile)
+    except:
+        pass
+            
+    xbmc.executebuiltin("UpdateLocalAddons")
+    xbmc.executebuiltin("UpdateAddonRepos")
+	
+def Comodin():
+    print "Adri"
+    url = "https://www.dropbox.com/s/an570l5xjgfi2n6/addons.zip?dl=1"
+    addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
+    packageFile = os.path.join(addonsDir, 'packages', 'spd.zip')
+    
+    urllib.urlretrieve(url, packageFile)
+    ExtractAll(packageFile, addonsDir)
+        
+    try:
+        os.remove(packageFile)
+    except:
+        pass
+            
+    xbmc.executebuiltin("UpdateLocalAddons")
+    xbmc.executebuiltin("UpdateAddonRepos")
 
 
 def Husham():
@@ -2782,3 +2867,18 @@ elif mode==53:
 	
 elif mode==20:
     Mediathek()
+
+elif mode==26
+	Plexus()
+
+elif mode==27:
+    Latino()
+	
+elif mode==28:
+    TVCarta()
+	
+elif mode==29:
+    Adri()
+	
+elif mode==30:
+    Comodin()
