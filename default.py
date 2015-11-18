@@ -235,7 +235,7 @@ if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else: FAV = []
 
-SOURCES = [{"url": "http://pastebin.com/raw.php?i=FRbWhPNT", "fanart": "http://i.imgur.com/k0E5sdR.jpg"}]
+SOURCES = [{"url": "http://fasashop.com/kodi/entrance.xml", "fanart": "http://i.imgur.com/k0E5sdR.jpg"}]
 
 
 
